@@ -1,0 +1,132 @@
+*{
+    /* overflow: hidden; */
+    font-family:sans-serif;
+}
+
+.body{
+    width: auto;
+    /* background-color:yellow; */
+    height:fit-content;
+    display: flex; /* Enables Flexbox */
+    align-items: center; /* Centers horizontally */
+    padding:8px;
+    overflow: hidden;
+}
+
+.body1{
+    width: 100%;
+    padding:4px;
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    /* background-color: red; */
+}
+
+.left{
+    padding:0 4px;
+    padding-top: 10px;
+    width: 20%;
+    margin-right: 10px;
+    height: 60vh;  /* Full viewport height */
+    /* background-color: green; */
+    position: relative; 
+    overflow: hidden;/* Fixes it to the left side */
+} 
+
+.left1{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width:auto;
+    height: 6vh;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    padding-left: 6px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 12px rgba(111, 111, 111, 0.25);
+}
+
+.left1:hover{
+    cursor: pointer;
+    background-color: #7bbedf;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.right{
+    width: 80%;
+    height: 100vh;
+    /* background-color: blue; */
+    display: inline-flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.right1{
+    width: auto;
+    padding : 10px;
+    height: auto;
+    margin: 10px 10px;
+    margin-bottom: 10px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    border-radius: 1cap;
+    box-shadow: 0 4px 12px rgba(111, 111, 111, 0.25);
+    /* overflow: hidden; */
+}
+
+#right1{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageinfo{
+
+     /* background-color:red; */
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+#right1 img{
+    padding-top: 6px;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+#tworight1{
+    display: flex;
+}
+
+.subright1{
+    width: 50%;
+    height: 100px;
+    flex-direction: column;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 0 4px 12px rgba(111, 111, 111, 0.3);
+
+}
+
+.subright1 span{
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    padding: 4px;
+    align-items:left;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
